@@ -21,10 +21,9 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{266308d1-1fe2-491c-9e12-e1cbbf28bbf9}</ProjectGuid>
-    <RootNamespace>VariableValueExchange</RootNamespace>
+    <ProjectGuid>{3fe0934c-dbd6-4dae-ba34-ffabb104dc29}</ProjectGuid>
+    <RootNamespace>My06AccumulatedCalculate</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>05_VariableValueExchange</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -128,7 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="variableValueExchange.c" />
+    <ClCompile Include="accumulatedCalculate.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

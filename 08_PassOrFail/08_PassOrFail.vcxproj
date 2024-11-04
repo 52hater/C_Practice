@@ -21,10 +21,9 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{1e3f96da-0dc6-4f45-b840-41f0a1215dc3}</ProjectGuid>
-    <RootNamespace>My9MaximumSurvival</RootNamespace>
+    <ProjectGuid>{43e0939a-25f3-4d8c-9cf2-d5d9254bc59b}</ProjectGuid>
+    <RootNamespace>My08PassOrFail</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>09_MaximumSurvival</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -128,7 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="maximumSurvival.c" />
+    <ClCompile Include="passOrFail.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

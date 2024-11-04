@@ -4,10 +4,10 @@
    사용자 입력이 저장되는 변수 하나와
    값을 누적하는 변수 하나만 사용해 구현*/
 
-// accumulation : 누적
+   // accumulation : 누적
 
 int main(void) {
-	
+
 	int input = 0;
 	int acc = 0;
 
