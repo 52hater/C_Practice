@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{38ae0556-d87e-4a52-b746-8c88112523be}</ProjectGuid>
-    <RootNamespace>My01HelloWorld</RootNamespace>
+    <ProjectGuid>{dd712884-8a11-4a33-9983-6c43c14a898e}</ProjectGuid>
+    <RootNamespace>My25SelectionSort</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,11 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="func.c" />
-    <ClCompile Include="helloWorld.c" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="func.h" />
+    <ClCompile Include="selectionSort.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

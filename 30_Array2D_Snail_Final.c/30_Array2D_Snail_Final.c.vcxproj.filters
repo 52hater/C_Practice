@@ -15,16 +15,8 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="helloWorld.c">
+    <ClCompile Include="array2D_Snail_Final.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="func.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="func.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>
